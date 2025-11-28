@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 270vh;
+}
+
+header {
+    width: 100%;
+    height: 14rem;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+        color: #fede04;
+    }
+
+    .cima {
+        display: flex;
+        flex-direction: row;
+        gap: 50rem;
+    }
+
+    .baixo {
+        display: flex;
+        flex-direction: row;
+        gap: 6rem;
+        margin-top: 2rem;
+
+            a {
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: #fede04;
+        }
+    }
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    section {
+        width: 100rem;
+        height: auto;
+        background-color: #fff;
+        border-radius: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-size: 1.8rem;
+            margin-top: 1.2rem;
+            color: #000;
+            text-align: center;
+            width: 70rem;
+            margin-bottom: 5rem;
+            margin-top: 4rem;
+        }
+    }
+}
+
+img {
+    width: 27rem;
+    height: auto;
+}
+
+.direita {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #fac213;
+    width: auto;
+    padding: 4rem;
+    gap: 8rem;
+}
+
+.esquerda {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding: 4rem;
+    gap: 8rem;
+    margin-bottom: 5rem;
+}
+
+h3 {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 1.2rem;
+}
+
+p {
+    width: 30rem;
+}
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+    color: #000;
+}

@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 200vh;
+}
+
+header {
+    width: 100%;
+    height: 14rem;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+        color: #fede04;
+    }
+
+    .cima {
+        display: flex;
+        flex-direction: row;
+        gap: 50rem;
+    }
+
+    .baixo {
+        display: flex;
+        flex-direction: row;
+        gap: 6rem;
+        margin-top: 2rem;
+
+            a {
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: #fede04;
+            
+        }
+    }
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    section {
+        width: 100rem;
+        height: 60rem;
+        background-color: #fff;
+        border-radius: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            font-size: 7rem;
+            margin-bottom: 4rem;
+            color: #000;
+        }
+
+        p {
+            font-size: 1.8rem;
+            margin-top: 1.2rem;
+            color: #000;
+            text-align: center;
+            width: 80rem;
+            margin-bottom: 5rem;
+        }
+    }
+}
+
+img {
+    width: 27rem;
+    height: auto;
+}
+
+.dois {
+    width: 100rem;
+    height: 80rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    gap: 12rem;
+
+    p {
+        font-size: 2.2rem;
+        width: 40rem;
+    }
+
+
+}
